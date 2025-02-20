@@ -5,12 +5,12 @@
     <div class="welcome-card">
         <h1 class="welcome-title">
             <span class="emoji">👋</span>
-            Welcome to Elysia
-            <span class="emoji">🦊</span>
+            Welcome to Foxtify
+            <span class="emoji">🚀</span>
             <span class="emoji">👈</span>
         </h1>
         
-        <p class="welcome-subtitle">Your high-performance web framework is up and running!</p>
+        <p class="welcome-subtitle">Your high-performance sporty kitsune is up and running!</p>
 
         <div class="features-grid">
             <div class="feature-card">
@@ -27,7 +27,7 @@
 
             <div class="feature-card">
                 <div class="feature-icon">🔧</div>
-                <h3 class="feature-title">Simple</h3>
+                <h3 class="feature-title">Beautiful</h3>
                 <p class="feature-description">Easy to use and maintain</p>
             </div>
         </div>
