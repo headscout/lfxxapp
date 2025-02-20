@@ -4,6 +4,7 @@ import './bootstrap';
 document.addEventListener('DOMContentLoaded', () => {
     const themeToggle = document.getElementById('theme-toggle');
     const themeIcon = document.getElementById('theme-icon');
+    const themeText = document.getElementById('theme-text');
     const html = document.documentElement;
 
     // Check for saved theme preference, otherwise use system preference
@@ -19,6 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const applyTheme = (theme) => {
         html.setAttribute('data-theme', theme);
         themeIcon.textContent = theme === 'dark' ? '🌙' : '☀️';
+        themeText.textContent = theme === 'dark' ? 'N' : 'D';
         localStorage.setItem('theme', theme);
     };
 

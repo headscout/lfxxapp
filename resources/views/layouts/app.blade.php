@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>Lemon Fox Official Site</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,8 +16,8 @@
 <body>
     <nav class="nav-container">
         <a href="/" class="nav-brand">
-            <span class="brand-icon">🚀</span>
-            {{ config('app.name', 'Laravel') }}
+            <span class="brand-icon">🦊🍋</span>
+            Lemon Fox
         </a>
         
         <div class="nav-links">
@@ -26,6 +26,7 @@
             <a href="#" class="nav-link">Contact</a>
             <button id="theme-toggle" class="theme-toggle">
                 <span id="theme-icon">🌙</span>
+                <span id="theme-text" class="theme-text">Dark Mode</span>
             </button>
         </div>
     </nav>
